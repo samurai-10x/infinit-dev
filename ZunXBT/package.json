@@ -1,0 +1,19 @@
+{
+  "name": "zunxbt",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest",
+    "hardhat": "2.22.12"
+  },
+  "peerDependencies": {
+    "typescript": "5.6.2"
+  },
+  "dependencies": {
+    "@infinit-xyz/cli": "^0.0.0-alpha.7",
+    "@infinit-xyz/uniswap-v3": "0.0.0-alpha.10"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}

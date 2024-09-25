@@ -1,0 +1,15 @@
+# yaml-language-server: $schema=../node_modules/@infinit-xyz/cli/dist/schemas/config/config.schema.json
+
+project_name: zunxbt
+protocol_module: uniswap-v3
+chain_info:
+  name: '[Testnet] Holesky'
+  short_name: Holesky
+  network_id: 17000
+  native_currency:
+    name: Ethereum
+    symbol: ETH
+    decimals: 18
+  rpc_url: https://holesky.drpc.org
+allow_analytics: true
+
